@@ -332,8 +332,12 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-
 }
+
+.wrapper .right-content .candidate-skills .candidate-skills-table .html, .css, .js, .bootstrap, .ps, .react {
+    margin-bottom: 20px;
+}
+
 .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-firs-column, .candidate-skills-second-column {
     display: flex;
     flex-direction: row;
@@ -377,7 +381,7 @@ body {
     padding-right: 0;
 }
 .wrapper .right-content .candidate-skills .candidate-skills-table .progress-bar-botstrap-column .progress {
-    margin-bottom: 9px;
+    margin-bottom: 29px;
  }
  .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-second-column .progress-bar-botstrap-column .bootstrap {
      --bs-progress-bar-bg: #838c95;
