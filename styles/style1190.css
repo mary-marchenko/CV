@@ -1,0 +1,53 @@
+@media (max-width: 1190px) {
+    .wrapper .right-content time {
+        font-size: 11px;
+    }
+
+    .wrapper .left-content .candidate .candidate-name-position h1 {
+        font-size: 30px;
+    }
+
+    .wrapper .left-content .candidate-hobbies {
+        height: 290px;
+    }
+
+    .wrapper .left-content .candidate-social-networks h1 {
+        font-size: 25px;
+    }
+
+    .wrapper .left-content .candidate-hobbies .candidate-hobbies-column {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .wrapper .left-content .candidate-hobbies .candidate-hobbies-column .candidate-hobbies-item {
+        justify-content: flex-start;
+        margin: 5px 10px 10px 10px;
+        box-sizing: border-box;
+    }
+
+    .wrapper .left-content .candidate-languages .candidate-languages-table .candidate-languages-all {
+        width: 65%;
+    }
+
+    .wrapper .left-content .candidate-languages .progress-bar-botstrap {
+        width: 35%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-firs-column .candidate-skills-column {
+        width: 40%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-firs-column .progress-bar-botstrap-column {
+        width: 60%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-second-column .candidate-skills-column {
+        width: 50%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-second-column .progress-bar-botstrap-column {
+        width: 50%;
+    }
+}

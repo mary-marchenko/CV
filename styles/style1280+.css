@@ -1,0 +1,8 @@
+@media (min-width: 1281px) {
+    .wrapper .right-content {
+        margin: 40px 60px;
+    }
+    .wrapper .left-content .candidate .candidate-image img {
+        max-width: 400px;
+    }
+}

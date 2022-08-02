@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper .left-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .wrapper .left-content .candidate .candidate-image img {
+        max-width: 40%;
+    }
+
+    .wrapper .left-content .candidate-social-networks .facebook {
+        font-size: 17.5px;
+    }
+
+    .wrapper .left-content .candidate-contacts .mail {
+        font-size: 17.5px;
+    }
+
+    .wrapper .left-content .candidate-languages .candidate-languages-table .candidate-languages-all {
+        width: 50%;
+    }
+
+    .wrapper .left-content .candidate-languages .progress-bar-botstrap {
+        width: 50%;
+    }
+    .wrapper .left-content .candidate-hobbies .candidate-hobbies-column {
+        display: flex;
+        flex-direction: row;
+    }
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-firs-column .candidate-skills-column {
+        width: 30%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-firs-column .progress-bar-botstrap-column {
+        width: 70%;
+    }
+
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-second-column .candidate-skills-column {
+        width: 35%;
+    }
+    .wrapper .right-content .candidate-skills .candidate-skills-table .candidate-skills-second-column .progress-bar-botstrap-column {
+        width: 65%;
+    }
+    .wrapper .right-content {
+        width: 100%;
+        padding-right: 80px;
+    }
+
+    .wrapper .right-content .item-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .wrapper .right-content time {
+        font-size: 16.5px;
+    }
+}
+
