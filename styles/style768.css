@@ -52,8 +52,8 @@
         width: 65%;
     }
     .wrapper .right-content {
-        width: 100%;
-        padding-right: 10%;
+        width: 90%;
+        padding-right: 15px;
     }
 
     .wrapper .right-content .item-info {
